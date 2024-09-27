@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/ton-utilisateur/ton-repo'
+    repoURL: 'https://github.com/Alrusso42/iot.git'
     targetRevision: HEAD
-    path: path/vers/ton/dossier/manifests
+    path: manifests
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: dev
